@@ -1,0 +1,5521 @@
+{
+  "__type": {
+    "type": "mathebuddy_bundle"
+  },
+  "definitions": {
+    "debug": "level",
+    "title": "",
+    "author": "",
+    "mbclVersion": 1,
+    "dateModified": 1679495819,
+    "chapters": [
+      {
+        "fileId": "",
+        "title": "",
+        "label": "",
+        "author": "",
+        "posX": -1,
+        "posY": -1,
+        "requires": [],
+        "units": [],
+        "levels": [
+          {
+            "fileId": "",
+            "title": "Definitions",
+            "label": "",
+            "posX": -1,
+            "posY": -1,
+            "requires": [],
+            "items": [
+              {
+                "type": "defDefinition",
+                "title": "Positive",
+                "label": "@def:positive",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "For any integer"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "n"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": ","
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "n"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "is"
+                      },
+                      {
+                        "type": "boldText",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "positive"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "if"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "n > 0"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "defTheorem",
+                "title": "The Aristotelian Syllogism",
+                "label": "@thm:socrates",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "If every man is mortal and Socrates is a man, then Socrates is mortal."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "defDefinition",
+                "title": "My definition",
+                "label": "@def:myDef",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Some paragraph text here."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "alignCenter",
+                    "items": [
+                      {
+                        "type": "paragraph",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "This text is center aligned."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "equation",
+                    "label": "@myEquation",
+                    "id": "2",
+                    "equationData": {
+                      "math": {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "x ^ 2 + y ^ 2 = z ^ 2"
+                          }
+                        ]
+                      },
+                      "number": 0
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Another paragraph here."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "equations": {
+    "debug": "level",
+    "title": "",
+    "author": "",
+    "mbclVersion": 1,
+    "dateModified": 1679495819,
+    "chapters": [
+      {
+        "fileId": "",
+        "title": "",
+        "label": "",
+        "author": "",
+        "posX": -1,
+        "posY": -1,
+        "requires": [],
+        "units": [],
+        "levels": [
+          {
+            "fileId": "",
+            "title": "Equations",
+            "label": "",
+            "posX": -1,
+            "posY": -1,
+            "requires": [],
+            "items": [
+              {
+                "type": "section",
+                "text": "Inline Equations"
+              },
+              {
+                "type": "paragraph",
+                "items": [
+                  {
+                    "type": "text",
+                    "text": "An inline equation"
+                  },
+                  {
+                    "type": "inlineMath",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "x ^ 2 + y ^ 2 + \\sqrt z"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "section",
+                "text": "Equations"
+              },
+              {
+                "type": "subSection",
+                "text": "Numbered equations"
+              },
+              {
+                "type": "equation",
+                "label": "@myLabel",
+                "id": "1",
+                "equationData": {
+                  "math": {
+                    "type": "inlineMath",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "a ^ 2 + b ^ 2 = c ^ 2"
+                      }
+                    ]
+                  },
+                  "number": 0
+                }
+              },
+              {
+                "type": "equation",
+                "id": "2",
+                "equationData": {
+                  "math": {
+                    "type": "inlineMath",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "\\sqrt { x + 1 }"
+                      }
+                    ]
+                  },
+                  "number": 0
+                }
+              },
+              {
+                "type": "subSection",
+                "text": "Equations without number"
+              },
+              {
+                "type": "equation",
+                "label": "@eq:myLabel",
+                "id": "-1",
+                "equationData": {
+                  "math": {
+                    "type": "inlineMath",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "a ^ 2 + b ^ 2 = c ^ 2"
+                      }
+                    ]
+                  },
+                  "number": 0
+                }
+              },
+              {
+                "type": "subSection",
+                "text": "Reference to equations"
+              },
+              {
+                "type": "paragraph",
+                "items": [
+                  {
+                    "type": "text",
+                    "text": "Refer to"
+                  },
+                  {
+                    "type": "reference",
+                    "label": "myLabel"
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "subSection",
+                "text": "Aligned equations"
+              },
+              {
+                "type": "equation",
+                "id": "3",
+                "equationData": {
+                  "math": {
+                    "type": "inlineMath",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "\\begin { matrix } [ ll ] ( x + 1) ^ 2 & = ( x + 1) ( x + 1) \\\\& = x ^ 2 + x + x + 1 \\\\& = x ^ 2 + 2 x + 1 \\\\\\end { matrix }"
+                      }
+                    ]
+                  },
+                  "number": 0
+                }
+              },
+              {
+                "type": "section",
+                "text": "Abbreviations"
+              },
+              {
+                "type": "paragraph",
+                "items": [
+                  {
+                    "type": "text",
+                    "text": "Equations may be written in plain TeX code. We introduce some ( optional) abbreviations for simpler notation."
+                  }
+                ]
+              },
+              {
+                "type": "subSection",
+                "text": "Numbers"
+              },
+              {
+                "type": "itemize",
+                "items": [
+                  {
+                    "type": "span",
+                    "items": [
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "\\RR"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "span",
+                    "items": [
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "\\NN"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "span",
+                    "items": [
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "\\ZZ"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "span",
+                    "items": [
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "\\CC"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "subSection",
+                "text": "Matrices"
+              },
+              {
+                "type": "equation",
+                "id": "4",
+                "equationData": {
+                  "math": {
+                    "type": "inlineMath",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "\\begin { pmatrix } 1 & 2 & 3 \\\\4 & 5 & 6 \\\\7 & 8 & 9 \\\\\\end { pmatrix }"
+                      }
+                    ]
+                  },
+                  "number": 0
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "examples": {
+    "debug": "level",
+    "title": "",
+    "author": "",
+    "mbclVersion": 1,
+    "dateModified": 1679495819,
+    "chapters": [
+      {
+        "fileId": "",
+        "title": "",
+        "label": "",
+        "author": "",
+        "posX": -1,
+        "posY": -1,
+        "requires": [],
+        "units": [],
+        "levels": [
+          {
+            "fileId": "",
+            "title": "Examples",
+            "label": "",
+            "posX": -1,
+            "posY": -1,
+            "requires": [],
+            "items": [
+              {
+                "type": "example",
+                "title": "Addition of complex numbers",
+                "label": "@ex:myExample",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "z_1 = 1 + 3 i ~ ~ z_2 = 2 + 4 i ~ ~ z_1 + z_2 = 3 + 7 i"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "title": "Addition of complex numbers",
+                "label": "@ex:myExample",
+                "items": [
+                  {
+                    "type": "equation",
+                    "id": "2",
+                    "equationData": {
+                      "math": {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "z_1 = 1 + 3 i ~ ~ z_2 = 2 + 4 i ~ ~ z_1 + z_2 = 3 + 7 i"
+                          }
+                        ]
+                      },
+                      "number": 0
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "exercises-simple": {
+    "debug": "level",
+    "title": "",
+    "author": "",
+    "mbclVersion": 1,
+    "dateModified": 1679495819,
+    "chapters": [
+      {
+        "fileId": "",
+        "title": "",
+        "label": "",
+        "author": "",
+        "posX": -1,
+        "posY": -1,
+        "requires": [],
+        "units": [],
+        "levels": [
+          {
+            "fileId": "",
+            "title": "Exercises",
+            "label": "",
+            "posX": -1,
+            "posY": -1,
+            "requires": [],
+            "items": [
+              {
+                "type": "exercise",
+                "title": "My Multiple Choice Exercise",
+                "label": "@ex:myMultiChoice",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Some text here."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "multipleChoice",
+                    "items": [
+                      {
+                        "type": "inputField",
+                        "id": "input0",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "This answer is correct."
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "__bool__0",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input1",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "This answer is incorrect."
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "__bool__1",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input2",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "This answer is correct."
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "__bool__2",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "",
+                  "variables": [
+                    "__bool__0",
+                    "__bool__1",
+                    "__bool__2"
+                  ],
+                  "instances": [
+                    {
+                      "__bool__0": "true",
+                      "__bool__1": "false",
+                      "__bool__2": "true"
+                    },
+                    {
+                      "__bool__0": "true",
+                      "__bool__1": "false",
+                      "__bool__2": "true"
+                    },
+                    {
+                      "__bool__0": "true",
+                      "__bool__1": "false",
+                      "__bool__2": "true"
+                    },
+                    {
+                      "__bool__0": "true",
+                      "__bool__1": "false",
+                      "__bool__2": "true"
+                    },
+                    {
+                      "__bool__0": "true",
+                      "__bool__1": "false",
+                      "__bool__2": "true"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "exercise",
+                "title": "Addition",
+                "label": "@ex:add",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Calculate"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "variableReference",
+                            "id": "x"
+                          },
+                          {
+                            "type": "text",
+                            "text": "+"
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "y"
+                          },
+                          {
+                            "type": "text",
+                            "text": "="
+                          }
+                        ]
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input3",
+                        "inputFieldData": {
+                          "type": "int",
+                          "variableId": "z",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "text": "."
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "let x/y = rand(1, 5);\nlet z = x + y;",
+                  "variables": [
+                    "x",
+                    "y",
+                    "z"
+                  ],
+                  "instances": [
+                    {
+                      "x": "5",
+                      "@x": "rand(1,5)",
+                      "y": "1",
+                      "@y": "rand(1,5)",
+                      "z": "6",
+                      "@z": "(5+1)"
+                    },
+                    {
+                      "x": "2",
+                      "@x": "rand(1,5)",
+                      "y": "4",
+                      "@y": "rand(1,5)",
+                      "z": "6",
+                      "@z": "(2+4)"
+                    },
+                    {
+                      "x": "1",
+                      "@x": "rand(1,5)",
+                      "y": "2",
+                      "@y": "rand(1,5)",
+                      "z": "3",
+                      "@z": "(1+2)"
+                    },
+                    {
+                      "x": "5",
+                      "@x": "rand(1,5)",
+                      "y": "2",
+                      "@y": "rand(1,5)",
+                      "z": "7",
+                      "@z": "(5+2)"
+                    },
+                    {
+                      "x": "1",
+                      "@x": "rand(1,5)",
+                      "y": "2",
+                      "@y": "rand(1,5)",
+                      "z": "3",
+                      "@z": "(1+2)"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": {
+    "debug": "level",
+    "title": "",
+    "author": "",
+    "mbclVersion": 1,
+    "dateModified": 1679495819,
+    "chapters": [
+      {
+        "fileId": "",
+        "title": "",
+        "label": "",
+        "author": "",
+        "posX": -1,
+        "posY": -1,
+        "requires": [],
+        "units": [],
+        "levels": [
+          {
+            "fileId": "",
+            "title": "Exercises",
+            "label": "",
+            "posX": -1,
+            "posY": -1,
+            "requires": [],
+            "items": [
+              {
+                "type": "section",
+                "text": "Multiple Choice"
+              },
+              {
+                "type": "exercise",
+                "title": "My Multiple Choice Exercise",
+                "label": "@ex:myMultiChoice",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Choose the right answers:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "multipleChoice",
+                    "items": [
+                      {
+                        "type": "inputField",
+                        "id": "input0",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "This answer is correct."
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "__bool__0",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input1",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "This answer is incorrect."
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "__bool__1",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input2",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "This answer is correct."
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "__bool__2",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "",
+                  "variables": [
+                    "__bool__0",
+                    "__bool__1",
+                    "__bool__2"
+                  ],
+                  "instances": [
+                    {
+                      "__bool__0": "true",
+                      "__bool__1": "false",
+                      "__bool__2": "true"
+                    },
+                    {
+                      "__bool__0": "true",
+                      "__bool__1": "false",
+                      "__bool__2": "true"
+                    },
+                    {
+                      "__bool__0": "true",
+                      "__bool__1": "false",
+                      "__bool__2": "true"
+                    },
+                    {
+                      "__bool__0": "true",
+                      "__bool__1": "false",
+                      "__bool__2": "true"
+                    },
+                    {
+                      "__bool__0": "true",
+                      "__bool__1": "false",
+                      "__bool__2": "true"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "exercise",
+                "title": "My Multiple Choice Exercise with static order",
+                "label": "@ex:myMultiChoice",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Choose the right answers:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "multipleChoice",
+                    "items": [
+                      {
+                        "type": "inputField",
+                        "id": "input3",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "This answer is correct."
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "__bool__0",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input4",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "This answer is incorrect."
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "__bool__1",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input5",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "This answer is correct."
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "__bool__2",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "",
+                  "variables": [
+                    "__bool__0",
+                    "__bool__1",
+                    "__bool__2"
+                  ],
+                  "instances": [
+                    {
+                      "__bool__0": "true",
+                      "__bool__1": "false",
+                      "__bool__2": "true"
+                    },
+                    {
+                      "__bool__0": "true",
+                      "__bool__1": "false",
+                      "__bool__2": "true"
+                    },
+                    {
+                      "__bool__0": "true",
+                      "__bool__1": "false",
+                      "__bool__2": "true"
+                    },
+                    {
+                      "__bool__0": "true",
+                      "__bool__1": "false",
+                      "__bool__2": "true"
+                    },
+                    {
+                      "__bool__0": "true",
+                      "__bool__1": "false",
+                      "__bool__2": "true"
+                    }
+                  ],
+                  "staticOrder": true,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "exercise",
+                "title": "My dynamic Multiple Choice Exercise",
+                "label": "@ex:myMultiChoice",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Choose the right answers:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "multipleChoice",
+                    "items": [
+                      {
+                        "type": "inputField",
+                        "id": "input6",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "inlineMath",
+                                "items": [
+                                  {
+                                    "type": "variableReference",
+                                    "id": "x"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": ">"
+                                  },
+                                  {
+                                    "type": "variableReference",
+                                    "id": "w"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "c1",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input7",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "inlineMath",
+                                "items": [
+                                  {
+                                    "type": "variableReference",
+                                    "id": "y"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": ">"
+                                  },
+                                  {
+                                    "type": "variableReference",
+                                    "id": "w"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "c2",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input8",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "inlineMath",
+                                "items": [
+                                  {
+                                    "type": "variableReference",
+                                    "id": "z"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": ">"
+                                  },
+                                  {
+                                    "type": "variableReference",
+                                    "id": "w"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "c3",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input9",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "inlineMath",
+                                "items": [
+                                  {
+                                    "type": "text",
+                                    "text": "1 > 0"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "__bool__0",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input10",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "inlineMath",
+                                "items": [
+                                  {
+                                    "type": "text",
+                                    "text": "1 < 0"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "__bool__1",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let x/y/z/w = rand(10, 20);    \n  let c1 = x > w;\n  let c2 = y > w;\n  let c3 = z > w;",
+                  "variables": [
+                    "x",
+                    "y",
+                    "z",
+                    "w",
+                    "c1",
+                    "c2",
+                    "c3",
+                    "__bool__0",
+                    "__bool__1"
+                  ],
+                  "instances": [
+                    {
+                      "x": "11",
+                      "@x": "rand(10,20)",
+                      "y": "18",
+                      "@y": "rand(10,20)",
+                      "z": "13",
+                      "@z": "rand(10,20)",
+                      "w": "15",
+                      "@w": "rand(10,20)",
+                      "c1": "false",
+                      "@c1": "(11>15)",
+                      "c2": "true",
+                      "@c2": "(18>15)",
+                      "c3": "false",
+                      "@c3": "(13>15)",
+                      "__bool__0": "true",
+                      "__bool__1": "false"
+                    },
+                    {
+                      "x": "20",
+                      "@x": "rand(10,20)",
+                      "y": "11",
+                      "@y": "rand(10,20)",
+                      "z": "19",
+                      "@z": "rand(10,20)",
+                      "w": "15",
+                      "@w": "rand(10,20)",
+                      "c1": "true",
+                      "@c1": "(20>15)",
+                      "c2": "false",
+                      "@c2": "(11>15)",
+                      "c3": "true",
+                      "@c3": "(19>15)",
+                      "__bool__0": "true",
+                      "__bool__1": "false"
+                    },
+                    {
+                      "x": "19",
+                      "@x": "rand(10,20)",
+                      "y": "20",
+                      "@y": "rand(10,20)",
+                      "z": "13",
+                      "@z": "rand(10,20)",
+                      "w": "12",
+                      "@w": "rand(10,20)",
+                      "c1": "true",
+                      "@c1": "(19>12)",
+                      "c2": "true",
+                      "@c2": "(20>12)",
+                      "c3": "true",
+                      "@c3": "(13>12)",
+                      "__bool__0": "true",
+                      "__bool__1": "false"
+                    },
+                    {
+                      "x": "11",
+                      "@x": "rand(10,20)",
+                      "y": "10",
+                      "@y": "rand(10,20)",
+                      "z": "13",
+                      "@z": "rand(10,20)",
+                      "w": "20",
+                      "@w": "rand(10,20)",
+                      "c1": "false",
+                      "@c1": "(11>20)",
+                      "c2": "false",
+                      "@c2": "(10>20)",
+                      "c3": "false",
+                      "@c3": "(13>20)",
+                      "__bool__0": "true",
+                      "__bool__1": "false"
+                    },
+                    {
+                      "x": "17",
+                      "@x": "rand(10,20)",
+                      "y": "12",
+                      "@y": "rand(10,20)",
+                      "z": "11",
+                      "@z": "rand(10,20)",
+                      "w": "14",
+                      "@w": "rand(10,20)",
+                      "c1": "true",
+                      "@c1": "(17>14)",
+                      "c2": "false",
+                      "@c2": "(12>14)",
+                      "c3": "false",
+                      "@c3": "(11>14)",
+                      "__bool__0": "true",
+                      "__bool__1": "false"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "section",
+                "text": "Single Choice"
+              },
+              {
+                "type": "exercise",
+                "title": "My Single Choice Exercise",
+                "label": "@ex:mySingleChoice",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Choose the right answer:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "singleChoice",
+                    "items": [
+                      {
+                        "type": "inputField",
+                        "id": "input11",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "This answer is correct."
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "__bool__0",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input12",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "This answer is incorrect."
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "__bool__1",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input13",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "This answer is incorrect."
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "__bool__2",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "",
+                  "variables": [
+                    "__bool__0",
+                    "__bool__1",
+                    "__bool__2"
+                  ],
+                  "instances": [
+                    {
+                      "__bool__0": "true",
+                      "__bool__1": "false",
+                      "__bool__2": "false"
+                    },
+                    {
+                      "__bool__0": "true",
+                      "__bool__1": "false",
+                      "__bool__2": "false"
+                    },
+                    {
+                      "__bool__0": "true",
+                      "__bool__1": "false",
+                      "__bool__2": "false"
+                    },
+                    {
+                      "__bool__0": "true",
+                      "__bool__1": "false",
+                      "__bool__2": "false"
+                    },
+                    {
+                      "__bool__0": "true",
+                      "__bool__1": "false",
+                      "__bool__2": "false"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "section",
+                "text": "Randomized Exercises"
+              },
+              {
+                "type": "exercise",
+                "title": "Addition",
+                "label": "@ex:add",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Calculate"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "variableReference",
+                            "id": "x"
+                          },
+                          {
+                            "type": "text",
+                            "text": "+"
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "y"
+                          },
+                          {
+                            "type": "text",
+                            "text": "="
+                          }
+                        ]
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input14",
+                        "inputFieldData": {
+                          "type": "int",
+                          "variableId": "z",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "text": "."
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let x/y = rand(1, 5);\n  let z = x + y;",
+                  "variables": [
+                    "x",
+                    "y",
+                    "z"
+                  ],
+                  "instances": [
+                    {
+                      "x": "2",
+                      "@x": "rand(1,5)",
+                      "y": "4",
+                      "@y": "rand(1,5)",
+                      "z": "6",
+                      "@z": "(2+4)"
+                    },
+                    {
+                      "x": "1",
+                      "@x": "rand(1,5)",
+                      "y": "3",
+                      "@y": "rand(1,5)",
+                      "z": "4",
+                      "@z": "(1+3)"
+                    },
+                    {
+                      "x": "3",
+                      "@x": "rand(1,5)",
+                      "y": "1",
+                      "@y": "rand(1,5)",
+                      "z": "4",
+                      "@z": "(3+1)"
+                    },
+                    {
+                      "x": "5",
+                      "@x": "rand(1,5)",
+                      "y": "3",
+                      "@y": "rand(1,5)",
+                      "z": "8",
+                      "@z": "(5+3)"
+                    },
+                    {
+                      "x": "2",
+                      "@x": "rand(1,5)",
+                      "y": "4",
+                      "@y": "rand(1,5)",
+                      "z": "6",
+                      "@z": "(2+4)"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "exercise",
+                "title": "Matrix Multiplication",
+                "label": "@ex:add-mul",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Calculate"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "variableReference",
+                            "id": "x"
+                          },
+                          {
+                            "type": "text",
+                            "text": "\\cdot"
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "y"
+                          },
+                          {
+                            "type": "text",
+                            "text": "="
+                          }
+                        ]
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input15",
+                        "inputFieldData": {
+                          "type": "matrix",
+                          "variableId": "z",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "text": "."
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let x:y = rand<2,2>(1, 5);\n  let z = x * y;",
+                  "variables": [
+                    "x",
+                    "y",
+                    "z"
+                  ],
+                  "instances": [
+                    {
+                      "x": "[[5,2],[1,1]]",
+                      "@x": "rand<2,2>(1,5)",
+                      "y": "[[5,4],[1,4]]",
+                      "@y": "rand<2,2>(1,5)",
+                      "z": "[[27,28],[6,8]]",
+                      "@z": "(([[5,2],[1,1]])*([[5,4],[1,4]]))"
+                    },
+                    {
+                      "x": "[[5,5],[3,5]]",
+                      "@x": "rand<2,2>(1,5)",
+                      "y": "[[2,5],[3,4]]",
+                      "@y": "rand<2,2>(1,5)",
+                      "z": "[[25,45],[21,35]]",
+                      "@z": "(([[5,5],[3,5]])*([[2,5],[3,4]]))"
+                    },
+                    {
+                      "x": "[[5,2],[4,4]]",
+                      "@x": "rand<2,2>(1,5)",
+                      "y": "[[5,4],[5,1]]",
+                      "@y": "rand<2,2>(1,5)",
+                      "z": "[[35,22],[40,20]]",
+                      "@z": "(([[5,2],[4,4]])*([[5,4],[5,1]]))"
+                    },
+                    {
+                      "x": "[[5,3],[1,3]]",
+                      "@x": "rand<2,2>(1,5)",
+                      "y": "[[1,3],[5,5]]",
+                      "@y": "rand<2,2>(1,5)",
+                      "z": "[[20,30],[16,18]]",
+                      "@z": "(([[5,3],[1,3]])*([[1,3],[5,5]]))"
+                    },
+                    {
+                      "x": "[[4,3],[5,3]]",
+                      "@x": "rand<2,2>(1,5)",
+                      "y": "[[3,4],[4,1]]",
+                      "@y": "rand<2,2>(1,5)",
+                      "z": "[[24,19],[27,23]]",
+                      "@z": "(([[4,3],[5,3]])*([[3,4],[4,1]]))"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "section",
+                "text": "Exercise with button answers"
+              },
+              {
+                "type": "exercise",
+                "title": "Multiplication",
+                "label": "ex16",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "variableReference",
+                            "id": "x"
+                          },
+                          {
+                            "type": "text",
+                            "text": "\\cdot"
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "y"
+                          },
+                          {
+                            "type": "text",
+                            "text": "="
+                          }
+                        ]
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input17",
+                        "inputFieldData": {
+                          "type": "choices",
+                          "variableId": "z",
+                          "score": 1,
+                          "choices": 4
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let x/y = rand(10, 20);\n  let z = x * y;",
+                  "variables": [
+                    "x",
+                    "y",
+                    "z"
+                  ],
+                  "instances": [
+                    {
+                      "x": "13",
+                      "@x": "rand(10,20)",
+                      "y": "19",
+                      "@y": "rand(10,20)",
+                      "z": "247",
+                      "@z": "(13*19)"
+                    },
+                    {
+                      "x": "13",
+                      "@x": "rand(10,20)",
+                      "y": "20",
+                      "@y": "rand(10,20)",
+                      "z": "260",
+                      "@z": "(13*20)"
+                    },
+                    {
+                      "x": "12",
+                      "@x": "rand(10,20)",
+                      "y": "20",
+                      "@y": "rand(10,20)",
+                      "z": "240",
+                      "@z": "(12*20)"
+                    },
+                    {
+                      "x": "15",
+                      "@x": "rand(10,20)",
+                      "y": "20",
+                      "@y": "rand(10,20)",
+                      "z": "300",
+                      "@z": "(15*20)"
+                    },
+                    {
+                      "x": "12",
+                      "@x": "rand(10,20)",
+                      "y": "10",
+                      "@y": "rand(10,20)",
+                      "z": "120",
+                      "@z": "(12*10)"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "exercise",
+                "title": "Simple Integration",
+                "label": "@ex:intSimple",
+                "error": "Unknown option: \"build-term: true\".",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Solve"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "\\int ( x ^ 2 + 7) \\dx ="
+                          }
+                        ]
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input18",
+                        "inputFieldData": {
+                          "type": "int",
+                          "variableId": "F",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "+ C"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let F(x) = (1/3) * x^3 + 7*x",
+                  "variables": [
+                    "F"
+                  ],
+                  "instances": [
+                    {
+                      "F": "0",
+                      "@F": "(((1/3)*(x^3))+(7*x))"
+                    },
+                    {
+                      "F": "0",
+                      "@F": "(((1/3)*(x^3))+(7*x))"
+                    },
+                    {
+                      "F": "0",
+                      "@F": "(((1/3)*(x^3))+(7*x))"
+                    },
+                    {
+                      "F": "0",
+                      "@F": "(((1/3)*(x^3))+(7*x))"
+                    },
+                    {
+                      "F": "0",
+                      "@F": "(((1/3)*(x^3))+(7*x))"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "section",
+                "text": "Scoring"
+              },
+              {
+                "type": "exercise",
+                "title": "Scoring example",
+                "label": "ex19",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Calculate"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "enumerateAlpha",
+                    "items": [
+                      {
+                        "type": "span",
+                        "items": [
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "variableReference",
+                                "id": "a"
+                              },
+                              {
+                                "type": "text",
+                                "text": "! ="
+                              }
+                            ]
+                          },
+                          {
+                            "type": "inputField",
+                            "id": "input20",
+                            "inputFieldData": {
+                              "type": "int",
+                              "variableId": "fa",
+                              "score": 1,
+                              "choices": 0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "span",
+                        "items": [
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "variableReference",
+                                "id": "b"
+                              },
+                              {
+                                "type": "text",
+                                "text": "! ="
+                              }
+                            ]
+                          },
+                          {
+                            "type": "inputField",
+                            "id": "input21",
+                            "inputFieldData": {
+                              "type": "int",
+                              "variableId": "fb",
+                              "score": 2,
+                              "choices": 0
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let a = rand(2, 4)\n  let b = rand(5, 6)\n  let fa = fac(a)\n  let fb = fac(b)",
+                  "variables": [
+                    "a",
+                    "b",
+                    "fa",
+                    "fb"
+                  ],
+                  "instances": [
+                    {
+                      "a": "4",
+                      "@a": "rand(2,4)",
+                      "b": "5",
+                      "@b": "rand(5,6)",
+                      "fa": "24",
+                      "@fa": "fac(4)",
+                      "fb": "120",
+                      "@fb": "fac(5)"
+                    },
+                    {
+                      "a": "2",
+                      "@a": "rand(2,4)",
+                      "b": "6",
+                      "@b": "rand(5,6)",
+                      "fa": "2",
+                      "@fa": "fac(2)",
+                      "fb": "720",
+                      "@fb": "fac(6)"
+                    },
+                    {
+                      "a": "3",
+                      "@a": "rand(2,4)",
+                      "b": "6",
+                      "@b": "rand(5,6)",
+                      "fa": "6",
+                      "@fa": "fac(3)",
+                      "fb": "720",
+                      "@fb": "fac(6)"
+                    },
+                    {
+                      "a": "3",
+                      "@a": "rand(2,4)",
+                      "b": "5",
+                      "@b": "rand(5,6)",
+                      "fa": "6",
+                      "@fa": "fac(3)",
+                      "fb": "120",
+                      "@fb": "fac(5)"
+                    },
+                    {
+                      "a": "3",
+                      "@a": "rand(2,4)",
+                      "b": "6",
+                      "@b": "rand(5,6)",
+                      "fa": "6",
+                      "@fa": "fac(3)",
+                      "fb": "720",
+                      "@fb": "fac(6)"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 5,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "section",
+                "text": "Gap Exercise"
+              },
+              {
+                "type": "exercise",
+                "title": "My Gap Exercise",
+                "label": "@ex:myLabel",
+                "error": "Unknown option: \"show-required-letters-only: true\". No variable for input field given.  No variable for input field given. ",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Garfield is a"
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input22",
+                        "inputFieldData": {
+                          "type": "none",
+                          "variableId": "",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "text": "cat. Rain is"
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input23",
+                        "inputFieldData": {
+                          "type": "none",
+                          "variableId": "",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "text": "wet."
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "",
+                  "variables": [],
+                  "instances": [],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": true,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "section",
+                "text": "Arrangement Exercise"
+              },
+              {
+                "type": "exercise",
+                "title": "Title",
+                "label": "@ex:label",
+                "error": "SMPL-Error: Exception: FILE:3:4: expected \"=\"\n There is no variable \"f\". Unknown option: \"arrangement: true\".Unknown option: \"accept-immediately: true\".",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Arrange the following numbers to get the first numbers of the Fibonacci sequence:"
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input24",
+                        "inputFieldData": {
+                          "type": "none",
+                          "variableId": "f",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let n = rand(5,10)         \n  let f = zeros<1,n>()       \n  f[1] = 1                   \n  for (let i=2; i<n; i++) {  \n    f[i] = f[i-2] + f[i-1]\n  }",
+                  "variables": [],
+                  "instances": [],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "section",
+                "text": "Timed Exercise"
+              },
+              {
+                "type": "exercise",
+                "title": "Title",
+                "label": "@ex:label",
+                "error": "Unknown option: \"timer: 3\".Unknown option: \"accelerate: true\".Unknown option: \"stop-after-x-errors: 1\".",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Calculate"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "variableReference",
+                            "id": "x"
+                          },
+                          {
+                            "type": "text",
+                            "text": "+"
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "y"
+                          },
+                          {
+                            "type": "text",
+                            "text": "="
+                          }
+                        ]
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input25",
+                        "inputFieldData": {
+                          "type": "choices",
+                          "variableId": "z",
+                          "score": 1,
+                          "choices": 4
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let x:y = rand(20,50);\n  let z = x + y",
+                  "variables": [
+                    "x",
+                    "y",
+                    "z"
+                  ],
+                  "instances": [
+                    {
+                      "x": "45",
+                      "@x": "rand(20,50)",
+                      "y": "42",
+                      "@y": "rand(20,50)",
+                      "z": "87",
+                      "@z": "(45+42)"
+                    },
+                    {
+                      "x": "44",
+                      "@x": "rand(20,50)",
+                      "y": "22",
+                      "@y": "rand(20,50)",
+                      "z": "66",
+                      "@z": "(44+22)"
+                    },
+                    {
+                      "x": "43",
+                      "@x": "rand(20,50)",
+                      "y": "29",
+                      "@y": "rand(20,50)",
+                      "z": "72",
+                      "@z": "(43+29)"
+                    },
+                    {
+                      "x": "30",
+                      "@x": "rand(20,50)",
+                      "y": "21",
+                      "@y": "rand(20,50)",
+                      "z": "51",
+                      "@z": "(30+21)"
+                    },
+                    {
+                      "x": "25",
+                      "@x": "rand(20,50)",
+                      "y": "32",
+                      "@y": "rand(20,50)",
+                      "z": "57",
+                      "@z": "(25+32)"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "figures": {
+    "debug": "level",
+    "title": "",
+    "author": "",
+    "mbclVersion": 1,
+    "dateModified": 1679495819,
+    "chapters": [
+      {
+        "fileId": "",
+        "title": "",
+        "label": "",
+        "author": "",
+        "posX": -1,
+        "posY": -1,
+        "requires": [],
+        "units": [],
+        "levels": [
+          {
+            "fileId": "",
+            "title": "Figures",
+            "label": "",
+            "posX": -1,
+            "posY": -1,
+            "requires": [],
+            "items": [
+              {
+                "type": "section",
+                "text": "Function Plots"
+              },
+              {
+                "type": "figure",
+                "figureData": {
+                  "filePath": "",
+                  "code": "  let f(x) = x^2\n  let g(x) = 2*x\n  figure {\n    x_axis(-5, 5, \"x\")  \n    y_axis(-0.5, 4.5, \"y\")\n    function(f)\n    function(g)\n    circle(0, 0, 0.1)   \n    circle(2, 4, 0.1)\n  }",
+                  "data": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"10.0\" viewBox=\"-5.0 -4.5 10.0 5.0\">\n  <g transform=\"scale(1,-1)\">  <polyline points=\"-3.000 9.000 -2.800 7.840 -2.600 6.760 -2.400 5.760 -2.200 4.840 -2.000 4.000 -1.800 3.240 -1.600 2.560 -1.400 1.960 -1.200 1.440 -1.000 1.000 -0.800 0.640 -0.600 0.360 -0.400 0.160 -0.200 0.040 0.000 0.000 0.200 0.040 0.400 0.160 0.600 0.360 0.800 0.640 1.000 1.000 1.200 1.440 1.400 1.960 1.600 2.560 1.800 3.240 2.000 4.000 2.200 4.840 2.400 5.760 2.600 6.760 2.800 7.840 3.000 9.000 \" fill=\"none\" style=\"stroke: rgb(0,0,0); stroke-width: 0.05\"/>\n  <polyline points=\"-0.400 -0.800 -0.200 -0.400 0.000 0.000 0.200 0.400 0.400 0.800 0.600 1.200 0.800 1.600 1.000 2.000 1.200 2.400 1.400 2.800 1.600 3.200 1.800 3.600 2.000 4.000 2.200 4.400 2.400 4.800 2.600 5.200 2.800 5.600 3.000 6.000 3.200 6.400 3.400 6.800 3.600 7.200 3.800 7.600 4.000 8.000 4.200 8.400 4.400 8.800 \" fill=\"none\" style=\"stroke: rgb(0,0,0); stroke-width: 0.05\"/>\n  <circle cx=\"0.000\" cy=\"0.000\" r=\"0.100\" fill=\"none\" style=\"stroke: rgb(0,0,0); stroke-width: 0.05\"/>\n  <circle cx=\"2.000\" cy=\"4.000\" r=\"0.100\" fill=\"none\" style=\"stroke: rgb(0,0,0); stroke-width: 0.05\"/>\n</g></svg>\n",
+                  "caption": [
+                    {
+                      "type": "paragraph",
+                      "items": [
+                        {
+                          "type": "text",
+                          "text": "Some functions"
+                        },
+                        {
+                          "type": "inlineMath",
+                          "items": [
+                            {
+                              "type": "text",
+                              "text": "f"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "and"
+                        },
+                        {
+                          "type": "inlineMath",
+                          "items": [
+                            {
+                              "type": "text",
+                              "text": "g"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "options": [
+                    "width75"
+                  ]
+                }
+              },
+              {
+                "type": "section",
+                "text": "Figures"
+              },
+              {
+                "type": "figure",
+                "figureData": {
+                  "filePath": "../../mathebuddy-public-courses/demo-basic/images/logo.svg",
+                  "code": "",
+                  "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\n\n<svg\n   width=\"480\"\n   height=\"480\"\n   viewBox=\"0 0 127 127\"\n   version=\"1.1\"\n   id=\"svg28742\"\n   inkscape:version=\"1.2.1 (9c6d41e, 2022-07-14)\"\n   sodipodi:docname=\"logo.svg\"\n   inkscape:export-filename=\"logo.png\"\n   inkscape:export-xdpi=\"204.8\"\n   inkscape:export-ydpi=\"204.8\"\n   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\n   xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\">\n  <sodipodi:namedview\n     id=\"namedview28744\"\n     pagecolor=\"#ffffff\"\n     bordercolor=\"#000000\"\n     borderopacity=\"0.25\"\n     inkscape:showpageshadow=\"2\"\n     inkscape:pageopacity=\"0.0\"\n     inkscape:pagecheckerboard=\"0\"\n     inkscape:deskcolor=\"#d1d1d1\"\n     inkscape:document-units=\"mm\"\n     showgrid=\"false\"\n     inkscape:zoom=\"0.50634225\"\n     inkscape:cx=\"234.03143\"\n     inkscape:cy=\"217.24436\"\n     inkscape:window-width=\"2560\"\n     inkscape:window-height=\"1328\"\n     inkscape:window-x=\"0\"\n     inkscape:window-y=\"25\"\n     inkscape:window-maximized=\"1\"\n     inkscape:current-layer=\"layer1\" />\n  <defs\n     id=\"defs28739\" />\n  <g\n     inkscape:label=\"Layer 1\"\n     inkscape:groupmode=\"layer\"\n     id=\"layer1\">\n    <path\n       sodipodi:nodetypes=\"asczsszsszszsssssa\"\n       id=\"path10-9-0-7\"\n       d=\"M 41.4069,98.931044 C 31.520676,92.421913 33.511843,77.669251 33.24142,64.37269 32.971021,51.076151 32.782496,31.915681 38.502046,28.288737 c 11.754149,-6.160615 16.473135,4.999192 25.435477,5.160004 8.962372,0.160878 17.534621,-10.578004 26.954773,-4.931405 4.421052,2.650086 2.274213,11.648883 5.492872,16.062495 2.461814,3.375794 17.113862,2.507184 19.425532,-1.142378 2.31167,-3.649561 -9.6e-4,-20.008101 -2.87017,-25.533733 C 108.5887,9.5217263 96.840814,1.8209986 84.537878,5.978364 77.42759,8.3810789 70.227432,13.956476 64.269225,13.846819 58.310994,13.737139 53.609076,7.8924352 44.790683,5.6427711 30.202835,1.9212578 21.98313,6.6099332 17.787308,15.456882 13.59151,24.303833 12.100273,52.333579 12.94094,70.849123 13.637543,86.191531 12.100478,103.4206 27.149345,113.28427 52.636497,129.98966 115.27819,126.2929 115.06574,88.210914 114.86027,51.376133 42.222491,55.602719 45.660566,70.885623 49.102578,86.186002 91.974937,67.428114 93.530603,89.755578 94.63364,105.58614 56.141633,108.63248 41.4069,98.931044 Z\"\n       style=\"mix-blend-mode:normal;fill:#b92323;fill-opacity:1;stroke:#b92323;stroke-width:0.368423px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\" />\n  </g>\n</svg>\n",
+                  "caption": [
+                    {
+                      "type": "paragraph",
+                      "items": [
+                        {
+                          "type": "text",
+                          "text": "mathe: buddy logo"
+                        }
+                      ]
+                    }
+                  ],
+                  "options": [
+                    "width75"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "hello": {
+    "debug": "level",
+    "title": "",
+    "author": "",
+    "mbclVersion": 1,
+    "dateModified": 1679495819,
+    "chapters": [
+      {
+        "fileId": "",
+        "title": "",
+        "label": "",
+        "author": "",
+        "posX": -1,
+        "posY": -1,
+        "requires": [],
+        "units": [],
+        "levels": [
+          {
+            "fileId": "",
+            "title": "Hello World",
+            "label": "",
+            "posX": -1,
+            "posY": -1,
+            "requires": [],
+            "items": [
+              {
+                "type": "paragraph",
+                "items": [
+                  {
+                    "type": "text",
+                    "text": "Hello world from math buddy!"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tables": {
+    "debug": "level",
+    "title": "",
+    "author": "",
+    "mbclVersion": 1,
+    "dateModified": 1679495819,
+    "chapters": [
+      {
+        "fileId": "",
+        "title": "",
+        "label": "",
+        "author": "",
+        "posX": -1,
+        "posY": -1,
+        "requires": [],
+        "units": [],
+        "levels": [
+          {
+            "fileId": "",
+            "title": "Tables",
+            "label": "",
+            "posX": -1,
+            "posY": -1,
+            "requires": [],
+            "items": [
+              {
+                "type": "table",
+                "title": "Negation",
+                "tableData": {
+                  "head": {
+                    "columns": [
+                      {
+                        "type": "paragraph",
+                        "items": [
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "A"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "items": [
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "\\neg A"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "rows": [
+                    {
+                      "columns": [
+                        {
+                          "type": "paragraph",
+                          "items": [
+                            {
+                              "type": "text",
+                              "text": "w"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "paragraph",
+                          "items": [
+                            {
+                              "type": "text",
+                              "text": "f"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "columns": [
+                        {
+                          "type": "paragraph",
+                          "items": [
+                            {
+                              "type": "text",
+                              "text": "f"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "paragraph",
+                          "items": [
+                            {
+                              "type": "text",
+                              "text": "w"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "options": [
+                    "alignLeft"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "typography": {
+    "debug": "level",
+    "title": "",
+    "author": "",
+    "mbclVersion": 1,
+    "dateModified": 1679495819,
+    "chapters": [
+      {
+        "fileId": "",
+        "title": "",
+        "label": "",
+        "author": "",
+        "posX": -1,
+        "posY": -1,
+        "requires": [],
+        "units": [],
+        "levels": [
+          {
+            "fileId": "",
+            "title": "Typography",
+            "label": "",
+            "posX": -1,
+            "posY": -1,
+            "requires": [],
+            "items": [
+              {
+                "type": "paragraph",
+                "items": [
+                  {
+                    "type": "text",
+                    "text": "This is text within a paragraph. Even this text stands in a new line, it is compiled to be written directly behind the last line."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "items": [
+                  {
+                    "type": "text",
+                    "text": "An empty line starts a new paragraph."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "items": [
+                  {
+                    "type": "text",
+                    "text": "This text is displayed in the output."
+                  }
+                ]
+              },
+              {
+                "type": "section",
+                "label": "sec:mySection",
+                "text": "My section"
+              },
+              {
+                "type": "paragraph",
+                "items": [
+                  {
+                    "type": "text",
+                    "text": "Some text in"
+                  },
+                  {
+                    "type": "color",
+                    "id": "1",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "red"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": "color."
+                  }
+                ]
+              },
+              {
+                "type": "subSection",
+                "label": "subsec:mySubSection",
+                "text": "My subsection"
+              },
+              {
+                "type": "paragraph",
+                "items": [
+                  {
+                    "type": "text",
+                    "text": "Refer to"
+                  },
+                  {
+                    "type": "reference",
+                    "label": "mySection"
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "items": [
+                  {
+                    "type": "text",
+                    "text": "An itemization:"
+                  }
+                ]
+              },
+              {
+                "type": "itemize",
+                "items": [
+                  {
+                    "type": "span",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "first item. This is some very long text that is wrapped over multiple lines. This is some very long text that is wrapped over multiple lines. This is some very long text that is wrapped over multiple lines. \n This line belongs to the first item, but stands in a new line."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "span",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "second item"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "items": [
+                  {
+                    "type": "text",
+                    "text": "An enumeration"
+                  }
+                ]
+              },
+              {
+                "type": "enumerate",
+                "items": [
+                  {
+                    "type": "span",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "first item"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "span",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "second item"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "items": [
+                  {
+                    "type": "text",
+                    "text": "An alpha enumeration"
+                  }
+                ]
+              },
+              {
+                "type": "enumerateAlpha",
+                "items": [
+                  {
+                    "type": "span",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "first item"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "span",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "second item"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "newPage"
+              },
+              {
+                "type": "subSection",
+                "text": "Bold, italic and colored text"
+              },
+              {
+                "type": "paragraph",
+                "items": [
+                  {
+                    "type": "text",
+                    "text": "Some"
+                  },
+                  {
+                    "type": "boldText",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "bold"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": "text. Some"
+                  },
+                  {
+                    "type": "italicText",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "italic"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": "text. The word"
+                  },
+                  {
+                    "type": "color",
+                    "id": "1",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "sky"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": "is written in primary color."
+                  },
+                  {
+                    "type": "color",
+                    "id": "2",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Some text written in the secondary color."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": ". You can also write"
+                  },
+                  {
+                    "type": "boldText",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "bold text"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": "and"
+                  },
+                  {
+                    "type": "italicText",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "italic text"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": "similar to color notation."
+                  }
+                ]
+              },
+              {
+                "type": "subSection",
+                "text": "Text alignment"
+              },
+              {
+                "type": "alignCenter",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "This text is centered."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "complexNumbers": {
+    "debug": "level",
+    "title": "",
+    "author": "",
+    "mbclVersion": 1,
+    "dateModified": 1679495819,
+    "chapters": [
+      {
+        "fileId": "",
+        "title": "",
+        "label": "",
+        "author": "",
+        "posX": -1,
+        "posY": -1,
+        "requires": [],
+        "units": [],
+        "levels": [
+          {
+            "fileId": "",
+            "title": "Komplexe Zahlen",
+            "label": "",
+            "posX": -1,
+            "posY": -1,
+            "requires": [],
+            "items": [
+              {
+                "type": "exercise",
+                "title": "Addition",
+                "label": "ex0",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Seien"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "z_1 ="
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "a"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "und"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "z_2 ="
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "b"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "komplexe Zahlen. Berechne die folgende"
+                      },
+                      {
+                        "type": "boldText",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "Summe"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "und gebe das Ergebnis in Normalform an:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "itemize",
+                    "items": [
+                      {
+                        "type": "span",
+                        "items": [
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "z_1 + z_2 ="
+                              }
+                            ]
+                          },
+                          {
+                            "type": "inputField",
+                            "id": "input1",
+                            "inputFieldData": {
+                              "type": "complexNormal",
+                              "variableId": "c",
+                              "score": 1,
+                              "choices": 0
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let a = rand(1,5) + rand(1,5)*1i;\n  let b = randZ(-1,1)*rand(1,5) + rand(1,5)*1i;\n  let c = a + b;",
+                  "variables": [
+                    "a",
+                    "b",
+                    "c"
+                  ],
+                  "instances": [
+                    {
+                      "a": "4+i",
+                      "@a": "(rand(1,5)+(rand(1,5)*(1*(0+i))))",
+                      "b": "-2+3i",
+                      "@b": "((randZ((-(1)),1)*rand(1,5))+(rand(1,5)*(1*(0+i))))",
+                      "c": "2+4i",
+                      "@c": "((4+i)+(-2+3i))"
+                    },
+                    {
+                      "a": "5+3i",
+                      "@a": "(rand(1,5)+(rand(1,5)*(1*(0+i))))",
+                      "b": "-4+5i",
+                      "@b": "((randZ((-(1)),1)*rand(1,5))+(rand(1,5)*(1*(0+i))))",
+                      "c": "1+8i",
+                      "@c": "((5+3i)+(-4+5i))"
+                    },
+                    {
+                      "a": "3+4i",
+                      "@a": "(rand(1,5)+(rand(1,5)*(1*(0+i))))",
+                      "b": "2+2i",
+                      "@b": "((randZ((-(1)),1)*rand(1,5))+(rand(1,5)*(1*(0+i))))",
+                      "c": "5+6i",
+                      "@c": "((3+4i)+(2+2i))"
+                    },
+                    {
+                      "a": "3+4i",
+                      "@a": "(rand(1,5)+(rand(1,5)*(1*(0+i))))",
+                      "b": "4+4i",
+                      "@b": "((randZ((-(1)),1)*rand(1,5))+(rand(1,5)*(1*(0+i))))",
+                      "c": "7+8i",
+                      "@c": "((3+4i)+(4+4i))"
+                    },
+                    {
+                      "a": "3+2i",
+                      "@a": "(rand(1,5)+(rand(1,5)*(1*(0+i))))",
+                      "b": "3+5i",
+                      "@b": "((randZ((-(1)),1)*rand(1,5))+(rand(1,5)*(1*(0+i))))",
+                      "c": "6+7i",
+                      "@c": "((3+2i)+(3+5i))"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "exercise",
+                "title": "Multiplikation",
+                "label": "ex2",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Seien"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "z_1 ="
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "a"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "und"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "z_2 ="
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "b"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "komplexe Zahlen. Berechne das folgende"
+                      },
+                      {
+                        "type": "boldText",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "Produkt"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "und gebe das Ergebnis in Normalform an:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "itemize",
+                    "items": [
+                      {
+                        "type": "span",
+                        "items": [
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "z_1 \\cdot z_2 ="
+                              }
+                            ]
+                          },
+                          {
+                            "type": "inputField",
+                            "id": "input3",
+                            "inputFieldData": {
+                              "type": "complexNormal",
+                              "variableId": "c",
+                              "score": 1,
+                              "choices": 0
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let a = rand(1,5) + rand(1,5)*1i;\n  let b = randZ(-1,1)*rand(1,5) + rand(1,5)*1i;\n  let c = a + b;",
+                  "variables": [
+                    "a",
+                    "b",
+                    "c"
+                  ],
+                  "instances": [
+                    {
+                      "a": "1+2i",
+                      "@a": "(rand(1,5)+(rand(1,5)*(1*(0+i))))",
+                      "b": "2+5i",
+                      "@b": "((randZ((-(1)),1)*rand(1,5))+(rand(1,5)*(1*(0+i))))",
+                      "c": "3+7i",
+                      "@c": "((1+2i)+(2+5i))"
+                    },
+                    {
+                      "a": "4+i",
+                      "@a": "(rand(1,5)+(rand(1,5)*(1*(0+i))))",
+                      "b": "2+3i",
+                      "@b": "((randZ((-(1)),1)*rand(1,5))+(rand(1,5)*(1*(0+i))))",
+                      "c": "6+4i",
+                      "@c": "((4+i)+(2+3i))"
+                    },
+                    {
+                      "a": "2+4i",
+                      "@a": "(rand(1,5)+(rand(1,5)*(1*(0+i))))",
+                      "b": "4+i",
+                      "@b": "((randZ((-(1)),1)*rand(1,5))+(rand(1,5)*(1*(0+i))))",
+                      "c": "6+5i",
+                      "@c": "((2+4i)+(4+i))"
+                    },
+                    {
+                      "a": "1+5i",
+                      "@a": "(rand(1,5)+(rand(1,5)*(1*(0+i))))",
+                      "b": "5+4i",
+                      "@b": "((randZ((-(1)),1)*rand(1,5))+(rand(1,5)*(1*(0+i))))",
+                      "c": "6+9i",
+                      "@c": "((1+5i)+(5+4i))"
+                    },
+                    {
+                      "a": "1+5i",
+                      "@a": "(rand(1,5)+(rand(1,5)*(1*(0+i))))",
+                      "b": "4+4i",
+                      "@b": "((randZ((-(1)),1)*rand(1,5))+(rand(1,5)*(1*(0+i))))",
+                      "c": "5+9i",
+                      "@c": "((1+5i)+(4+4i))"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "exercise",
+                "title": "Komplex konjugierte Zahl",
+                "label": "ex4",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Sei"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "z \\in \\CC"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "und"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "z ="
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "z"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "itemize",
+                    "items": [
+                      {
+                        "type": "span",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "Berechne die zu"
+                          },
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "z"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "boldText",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "komplex konjugierte"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "text": "Zahl: \n"
+                          },
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "\\overline { z } ="
+                              }
+                            ]
+                          },
+                          {
+                            "type": "inputField",
+                            "id": "input5",
+                            "inputFieldData": {
+                              "type": "complexNormal",
+                              "variableId": "c",
+                              "score": 1,
+                              "choices": 0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "span",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "Berechne"
+                          },
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "z \\cdot \\overline { z } ="
+                              }
+                            ]
+                          },
+                          {
+                            "type": "inputField",
+                            "id": "input6",
+                            "inputFieldData": {
+                              "type": "complexNormal",
+                              "variableId": "z2",
+                              "score": 1,
+                              "choices": 0
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let z = rand(1,5) + rand(1,5)*1i;\n  let c = conj(z);\n  let z2 = z * c;",
+                  "variables": [
+                    "z",
+                    "c",
+                    "z2"
+                  ],
+                  "instances": [
+                    {
+                      "z": "4+2i",
+                      "@z": "(rand(1,5)+(rand(1,5)*(1*(0+i))))",
+                      "c": "4-2i",
+                      "@c": "conj((4+2i))",
+                      "z2": "20+0i",
+                      "@z2": "((4+2i)*(4-2i))"
+                    },
+                    {
+                      "z": "4+i",
+                      "@z": "(rand(1,5)+(rand(1,5)*(1*(0+i))))",
+                      "c": "4-i",
+                      "@c": "conj((4+i))",
+                      "z2": "17+0i",
+                      "@z2": "((4+i)*(4-i))"
+                    },
+                    {
+                      "z": "3+2i",
+                      "@z": "(rand(1,5)+(rand(1,5)*(1*(0+i))))",
+                      "c": "3-2i",
+                      "@c": "conj((3+2i))",
+                      "z2": "13+0i",
+                      "@z2": "((3+2i)*(3-2i))"
+                    },
+                    {
+                      "z": "5+5i",
+                      "@z": "(rand(1,5)+(rand(1,5)*(1*(0+i))))",
+                      "c": "5-5i",
+                      "@c": "conj((5+5i))",
+                      "z2": "50+0i",
+                      "@z2": "((5+5i)*(5-5i))"
+                    },
+                    {
+                      "z": "5+i",
+                      "@z": "(rand(1,5)+(rand(1,5)*(1*(0+i))))",
+                      "c": "5-i",
+                      "@c": "conj((5+i))",
+                      "z2": "26+0i",
+                      "@z2": "((5+i)*(5-i))"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "exercise",
+                "title": "Betrag einer komplexen Zahl",
+                "label": "ex7",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Sei"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "z \\in \\CC"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "und"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "z ="
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "z"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "itemize",
+                    "items": [
+                      {
+                        "type": "span",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "Berechne"
+                          },
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "| z | ="
+                              }
+                            ]
+                          },
+                          {
+                            "type": "inputField",
+                            "id": "input8",
+                            "inputFieldData": {
+                              "type": "int",
+                              "variableId": "r",
+                              "score": 1,
+                              "choices": 0
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let a:b = rand(2,4);\n  let x = a^2 - b^2;\n  let y = 2 * a * b;\n  let z = complex(x,y);\n  let r = abs(z);",
+                  "variables": [
+                    "a",
+                    "b",
+                    "x",
+                    "y",
+                    "z",
+                    "r"
+                  ],
+                  "instances": [
+                    {
+                      "a": "2",
+                      "@a": "rand(2,4)",
+                      "b": "2",
+                      "@b": "rand(2,4)",
+                      "x": "0",
+                      "@x": "((2^2)-(2^2))",
+                      "y": "8",
+                      "@y": "(2*2*2)",
+                      "z": "0+8i",
+                      "@z": "complex(0,8)",
+                      "r": "8",
+                      "@r": "abs((0+8i))"
+                    },
+                    {
+                      "a": "2",
+                      "@a": "rand(2,4)",
+                      "b": "4",
+                      "@b": "rand(2,4)",
+                      "x": "-12",
+                      "@x": "((2^2)-(4^2))",
+                      "y": "16",
+                      "@y": "(2*2*4)",
+                      "z": "-12+16i",
+                      "@z": "complex(-12,16)",
+                      "r": "20",
+                      "@r": "abs((-12+16i))"
+                    },
+                    {
+                      "a": "4",
+                      "@a": "rand(2,4)",
+                      "b": "4",
+                      "@b": "rand(2,4)",
+                      "x": "0",
+                      "@x": "((4^2)-(4^2))",
+                      "y": "32",
+                      "@y": "(2*4*4)",
+                      "z": "0+32i",
+                      "@z": "complex(0,32)",
+                      "r": "32",
+                      "@r": "abs((0+32i))"
+                    },
+                    {
+                      "a": "2",
+                      "@a": "rand(2,4)",
+                      "b": "4",
+                      "@b": "rand(2,4)",
+                      "x": "-12",
+                      "@x": "((2^2)-(4^2))",
+                      "y": "16",
+                      "@y": "(2*2*4)",
+                      "z": "-12+16i",
+                      "@z": "complex(-12,16)",
+                      "r": "20",
+                      "@r": "abs((-12+16i))"
+                    },
+                    {
+                      "a": "2",
+                      "@a": "rand(2,4)",
+                      "b": "4",
+                      "@b": "rand(2,4)",
+                      "x": "-12",
+                      "@x": "((2^2)-(4^2))",
+                      "y": "16",
+                      "@y": "(2*2*4)",
+                      "z": "-12+16i",
+                      "@z": "complex(-12,16)",
+                      "r": "20",
+                      "@r": "abs((-12+16i))"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "exercise",
+                "title": "Inverse einer komplexen Zahl",
+                "label": "ex9",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Sei"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "z \\in \\CC"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "und"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "z = \\frac {"
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "a"
+                          },
+                          {
+                            "type": "text",
+                            "text": "} {"
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "c"
+                          },
+                          {
+                            "type": "text",
+                            "text": "} - \\frac {"
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "b"
+                          },
+                          {
+                            "type": "text",
+                            "text": "} {"
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "c"
+                          },
+                          {
+                            "type": "text",
+                            "text": "} \\cdot i"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "itemize",
+                    "items": [
+                      {
+                        "type": "span",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "Berechne"
+                          },
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "\\frac { 1 } { z } ="
+                              }
+                            ]
+                          },
+                          {
+                            "type": "inputField",
+                            "id": "input10",
+                            "inputFieldData": {
+                              "type": "complexNormal",
+                              "variableId": "r",
+                              "score": 1,
+                              "choices": 0
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let a:b = rand(2,5);\n  let c = a^2 + b^2;\n  let r = complex(a,b);",
+                  "variables": [
+                    "a",
+                    "b",
+                    "c",
+                    "r"
+                  ],
+                  "instances": [
+                    {
+                      "a": "5",
+                      "@a": "rand(2,5)",
+                      "b": "4",
+                      "@b": "rand(2,5)",
+                      "c": "41",
+                      "@c": "((5^2)+(4^2))",
+                      "r": "5+4i",
+                      "@r": "complex(5,4)"
+                    },
+                    {
+                      "a": "5",
+                      "@a": "rand(2,5)",
+                      "b": "5",
+                      "@b": "rand(2,5)",
+                      "c": "50",
+                      "@c": "((5^2)+(5^2))",
+                      "r": "5+5i",
+                      "@r": "complex(5,5)"
+                    },
+                    {
+                      "a": "4",
+                      "@a": "rand(2,5)",
+                      "b": "3",
+                      "@b": "rand(2,5)",
+                      "c": "25",
+                      "@c": "((4^2)+(3^2))",
+                      "r": "4+3i",
+                      "@r": "complex(4,3)"
+                    },
+                    {
+                      "a": "3",
+                      "@a": "rand(2,5)",
+                      "b": "5",
+                      "@b": "rand(2,5)",
+                      "c": "34",
+                      "@c": "((3^2)+(5^2))",
+                      "r": "3+5i",
+                      "@r": "complex(3,5)"
+                    },
+                    {
+                      "a": "5",
+                      "@a": "rand(2,5)",
+                      "b": "2",
+                      "@b": "rand(2,5)",
+                      "c": "29",
+                      "@c": "((5^2)+(2^2))",
+                      "r": "5+2i",
+                      "@r": "complex(5,2)"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "exercise",
+                "title": "Division",
+                "label": "ex11",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Seien"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "z_1 ="
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "z1"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "und"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "z_2 ="
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "z2"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "komplexe Zahlen."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "itemize",
+                    "items": [
+                      {
+                        "type": "span",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "Berechne den folgenden"
+                          },
+                          {
+                            "type": "boldText",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "Quotienten"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "text": "und gebe das Ergebnis in Normalform an:"
+                          },
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "\\frac { z_1 } { z_2 } ="
+                              }
+                            ]
+                          },
+                          {
+                            "type": "inputField",
+                            "id": "input12",
+                            "inputFieldData": {
+                              "type": "complexNormal",
+                              "variableId": "r",
+                              "score": 1,
+                              "choices": 0
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let a:b:c:d = rand(1,5);\n  a = randZ(-1,1) * a;\n  let z2 = complex(a,b);\n  let r = complex(c,d);\n  let z1 = z2 * r;",
+                  "variables": [
+                    "a",
+                    "b",
+                    "c",
+                    "d",
+                    "z2",
+                    "r",
+                    "z1"
+                  ],
+                  "instances": [
+                    {
+                      "a": "5",
+                      "@a": "(randZ((-(1)),1)*5)",
+                      "b": "5",
+                      "@b": "rand(1,5)",
+                      "c": "5",
+                      "@c": "rand(1,5)",
+                      "d": "2",
+                      "@d": "rand(1,5)",
+                      "z2": "5+5i",
+                      "@z2": "complex(5,5)",
+                      "r": "5+2i",
+                      "@r": "complex(5,2)",
+                      "z1": "15+35i",
+                      "@z1": "((5+5i)*(5+2i))"
+                    },
+                    {
+                      "a": "4",
+                      "@a": "(randZ((-(1)),1)*4)",
+                      "b": "2",
+                      "@b": "rand(1,5)",
+                      "c": "2",
+                      "@c": "rand(1,5)",
+                      "d": "5",
+                      "@d": "rand(1,5)",
+                      "z2": "4+2i",
+                      "@z2": "complex(4,2)",
+                      "r": "2+5i",
+                      "@r": "complex(2,5)",
+                      "z1": "-2+24i",
+                      "@z1": "((4+2i)*(2+5i))"
+                    },
+                    {
+                      "a": "-4",
+                      "@a": "(randZ((-(1)),1)*4)",
+                      "b": "4",
+                      "@b": "rand(1,5)",
+                      "c": "4",
+                      "@c": "rand(1,5)",
+                      "d": "3",
+                      "@d": "rand(1,5)",
+                      "z2": "-4+4i",
+                      "@z2": "complex(-4,4)",
+                      "r": "4+3i",
+                      "@r": "complex(4,3)",
+                      "z1": "-28+4i",
+                      "@z1": "((-4+4i)*(4+3i))"
+                    },
+                    {
+                      "a": "-1",
+                      "@a": "(randZ((-(1)),1)*1)",
+                      "b": "2",
+                      "@b": "rand(1,5)",
+                      "c": "3",
+                      "@c": "rand(1,5)",
+                      "d": "3",
+                      "@d": "rand(1,5)",
+                      "z2": "-1+2i",
+                      "@z2": "complex(-1,2)",
+                      "r": "3+3i",
+                      "@r": "complex(3,3)",
+                      "z1": "-9+3i",
+                      "@z1": "((-1+2i)*(3+3i))"
+                    },
+                    {
+                      "a": "-1",
+                      "@a": "(randZ((-(1)),1)*1)",
+                      "b": "2",
+                      "@b": "rand(1,5)",
+                      "c": "2",
+                      "@c": "rand(1,5)",
+                      "d": "2",
+                      "@d": "rand(1,5)",
+                      "z2": "-1+2i",
+                      "@z2": "complex(-1,2)",
+                      "r": "2+2i",
+                      "@r": "complex(2,2)",
+                      "z1": "-6+2i",
+                      "@z1": "((-1+2i)*(2+2i))"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "exercise",
+                "title": "Komplexe Terme",
+                "label": "ex13",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Berechne den folgenden"
+                      },
+                      {
+                        "type": "boldText",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "komplexen Term"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "und gebe das Ergebnis in Normalform an:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "itemize",
+                    "items": [
+                      {
+                        "type": "span",
+                        "items": [
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "{"
+                              },
+                              {
+                                "type": "variableReference",
+                                "id": "z1"
+                              },
+                              {
+                                "type": "text",
+                                "text": "} ^ {"
+                              },
+                              {
+                                "type": "variableReference",
+                                "id": "pow"
+                              },
+                              {
+                                "type": "text",
+                                "text": "} +"
+                              },
+                              {
+                                "type": "variableReference",
+                                "id": "z2"
+                              },
+                              {
+                                "type": "text",
+                                "text": "="
+                              }
+                            ]
+                          },
+                          {
+                            "type": "inputField",
+                            "id": "input14",
+                            "inputFieldData": {
+                              "type": "complexNormal",
+                              "variableId": "res",
+                              "score": 1,
+                              "choices": 0
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let a:b:c:d = rand(1,3);\n  let pow = 2;\n  let z1 = complex(a,b);\n  let z2 = complex(c,d);\n  let res = z1^pow + z2;",
+                  "variables": [
+                    "a",
+                    "b",
+                    "c",
+                    "d",
+                    "pow",
+                    "z1",
+                    "z2",
+                    "res"
+                  ],
+                  "instances": [
+                    {
+                      "a": "2",
+                      "@a": "rand(1,3)",
+                      "b": "2",
+                      "@b": "rand(1,3)",
+                      "c": "1",
+                      "@c": "rand(1,3)",
+                      "d": "3",
+                      "@d": "rand(1,3)",
+                      "pow": "2",
+                      "@pow": "2",
+                      "z1": "2+2i",
+                      "@z1": "complex(2,2)",
+                      "z2": "1+3i",
+                      "@z2": "complex(1,3)",
+                      "res": "1.0000000000000004+11.000000000000002i",
+                      "@res": "(((2+2i)^2)+(1+3i))"
+                    },
+                    {
+                      "a": "2",
+                      "@a": "rand(1,3)",
+                      "b": "1",
+                      "@b": "rand(1,3)",
+                      "c": "1",
+                      "@c": "rand(1,3)",
+                      "d": "2",
+                      "@d": "rand(1,3)",
+                      "pow": "2",
+                      "@pow": "2",
+                      "z1": "2+i",
+                      "@z1": "complex(2,1)",
+                      "z2": "1+2i",
+                      "@z2": "complex(1,2)",
+                      "res": "4.000000000000001+6.0i",
+                      "@res": "(((2+i)^2)+(1+2i))"
+                    },
+                    {
+                      "a": "3",
+                      "@a": "rand(1,3)",
+                      "b": "1",
+                      "@b": "rand(1,3)",
+                      "c": "2",
+                      "@c": "rand(1,3)",
+                      "d": "1",
+                      "@d": "rand(1,3)",
+                      "pow": "2",
+                      "@pow": "2",
+                      "z1": "3+i",
+                      "@z1": "complex(3,1)",
+                      "z2": "2+i",
+                      "@z2": "complex(2,1)",
+                      "res": "10.000000000000002+7.000000000000001i",
+                      "@res": "(((3+i)^2)+(2+i))"
+                    },
+                    {
+                      "a": "3",
+                      "@a": "rand(1,3)",
+                      "b": "1",
+                      "@b": "rand(1,3)",
+                      "c": "3",
+                      "@c": "rand(1,3)",
+                      "d": "3",
+                      "@d": "rand(1,3)",
+                      "pow": "2",
+                      "@pow": "2",
+                      "z1": "3+i",
+                      "@z1": "complex(3,1)",
+                      "z2": "3+3i",
+                      "@z2": "complex(3,3)",
+                      "res": "11.000000000000002+9.0i",
+                      "@res": "(((3+i)^2)+(3+3i))"
+                    },
+                    {
+                      "a": "2",
+                      "@a": "rand(1,3)",
+                      "b": "2",
+                      "@b": "rand(1,3)",
+                      "c": "3",
+                      "@c": "rand(1,3)",
+                      "d": "2",
+                      "@d": "rand(1,3)",
+                      "pow": "2",
+                      "@pow": "2",
+                      "z1": "2+2i",
+                      "@z1": "complex(2,2)",
+                      "z2": "3+2i",
+                      "@z2": "complex(3,2)",
+                      "res": "3.0000000000000004+10.000000000000002i",
+                      "@res": "(((2+2i)^2)+(3+2i))"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "exercise",
+                "title": "Komplexe Folgen",
+                "label": "ex15",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Bestimme die ersten"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "3"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "boldText",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "Folgenglieder"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "der komplexen Folge"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "( a_n) _ { n \\in \\NN } = \\left ( \\left ("
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "c"
+                          },
+                          {
+                            "type": "text",
+                            "text": "\\cdot i \\right) ^ n \\right) _ { n \\in \\NN }"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "itemize",
+                    "items": [
+                      {
+                        "type": "span",
+                        "items": [
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "n = 1:"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "inputField",
+                            "id": "input16",
+                            "inputFieldData": {
+                              "type": "complexNormal",
+                              "variableId": "a1",
+                              "score": 1,
+                              "choices": 0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "span",
+                        "items": [
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "n = 2:"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "inputField",
+                            "id": "input17",
+                            "inputFieldData": {
+                              "type": "complexNormal",
+                              "variableId": "a2",
+                              "score": 1,
+                              "choices": 0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "span",
+                        "items": [
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "n = 3:"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "inputField",
+                            "id": "input18",
+                            "inputFieldData": {
+                              "type": "complexNormal",
+                              "variableId": "a3",
+                              "score": 1,
+                              "choices": 0
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "singleChoice",
+                    "items": [
+                      {
+                        "type": "inputField",
+                        "id": "input19",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "Die Folge ist"
+                              },
+                              {
+                                "type": "boldText",
+                                "items": [
+                                  {
+                                    "type": "text",
+                                    "text": "konvergent"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "__bool__0",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input20",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "Die Folge ist"
+                              },
+                              {
+                                "type": "boldText",
+                                "items": [
+                                  {
+                                    "type": "text",
+                                    "text": "divergent"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "__bool__1",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let c = rand(2,4)\n  let z = c * 1i\n  let a1 = z^1\n  let a2 = z^2\n  let a3 = z^3",
+                  "variables": [
+                    "c",
+                    "z",
+                    "a1",
+                    "a2",
+                    "a3",
+                    "__bool__0",
+                    "__bool__1"
+                  ],
+                  "instances": [
+                    {
+                      "c": "2",
+                      "@c": "rand(2,4)",
+                      "z": "0+2i",
+                      "@z": "(2*(1*(0+i)))",
+                      "a1": "1.2246467991473532e-16+2.0i",
+                      "@a1": "((0+2i)^1)",
+                      "a2": "-4.0+4.898587196589413e-16i",
+                      "@a2": "((0+2i)^2)",
+                      "a3": "-1.4695761589768238e-15-8.0i",
+                      "@a3": "((0+2i)^3)",
+                      "__bool__0": "false",
+                      "__bool__1": "true"
+                    },
+                    {
+                      "c": "2",
+                      "@c": "rand(2,4)",
+                      "z": "0+2i",
+                      "@z": "(2*(1*(0+i)))",
+                      "a1": "1.2246467991473532e-16+2.0i",
+                      "@a1": "((0+2i)^1)",
+                      "a2": "-4.0+4.898587196589413e-16i",
+                      "@a2": "((0+2i)^2)",
+                      "a3": "-1.4695761589768238e-15-8.0i",
+                      "@a3": "((0+2i)^3)",
+                      "__bool__0": "false",
+                      "__bool__1": "true"
+                    },
+                    {
+                      "c": "3",
+                      "@c": "rand(2,4)",
+                      "z": "0+3i",
+                      "@z": "(3*(1*(0+i)))",
+                      "a1": "1.8369701987210297e-16+3.0i",
+                      "@a1": "((0+3i)^1)",
+                      "a2": "-9.0+1.102182119232618e-15i",
+                      "@a2": "((0+3i)^2)",
+                      "a3": "-4.95981953654678e-15-27.0i",
+                      "@a3": "((0+3i)^3)",
+                      "__bool__0": "false",
+                      "__bool__1": "true"
+                    },
+                    {
+                      "c": "2",
+                      "@c": "rand(2,4)",
+                      "z": "0+2i",
+                      "@z": "(2*(1*(0+i)))",
+                      "a1": "1.2246467991473532e-16+2.0i",
+                      "@a1": "((0+2i)^1)",
+                      "a2": "-4.0+4.898587196589413e-16i",
+                      "@a2": "((0+2i)^2)",
+                      "a3": "-1.4695761589768238e-15-8.0i",
+                      "@a3": "((0+2i)^3)",
+                      "__bool__0": "false",
+                      "__bool__1": "true"
+                    },
+                    {
+                      "c": "3",
+                      "@c": "rand(2,4)",
+                      "z": "0+3i",
+                      "@z": "(3*(1*(0+i)))",
+                      "a1": "1.8369701987210297e-16+3.0i",
+                      "@a1": "((0+3i)^1)",
+                      "a2": "-9.0+1.102182119232618e-15i",
+                      "@a2": "((0+3i)^2)",
+                      "a3": "-4.95981953654678e-15-27.0i",
+                      "@a3": "((0+3i)^3)",
+                      "__bool__0": "false",
+                      "__bool__1": "true"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "exercise",
+                "title": "Komplexe Folgen",
+                "label": "ex21",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Bestimme die ersten"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "2"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "boldText",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "Folgenglieder"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "der komplexen Folge"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "( a_n) _ { n \\in \\NN } = \\left ( \\left ( \\frac 1"
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "c"
+                          },
+                          {
+                            "type": "text",
+                            "text": "+ \\frac 1"
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "c"
+                          },
+                          {
+                            "type": "text",
+                            "text": "\\cdot i \\right) ^ n \\right) _ { n \\in \\NN }"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "itemize",
+                    "items": [
+                      {
+                        "type": "span",
+                        "items": [
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "n = 1:"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "inputField",
+                            "id": "input22",
+                            "inputFieldData": {
+                              "type": "complexNormal",
+                              "variableId": "a1",
+                              "score": 1,
+                              "choices": 0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "span",
+                        "items": [
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "n = 2:"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "inputField",
+                            "id": "input23",
+                            "inputFieldData": {
+                              "type": "complexNormal",
+                              "variableId": "a2",
+                              "score": 1,
+                              "choices": 0
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "singleChoice",
+                    "items": [
+                      {
+                        "type": "inputField",
+                        "id": "input24",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "Die Folge ist"
+                              },
+                              {
+                                "type": "boldText",
+                                "items": [
+                                  {
+                                    "type": "text",
+                                    "text": "konvergent"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "__bool__0",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input25",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "Die Folge ist"
+                              },
+                              {
+                                "type": "boldText",
+                                "items": [
+                                  {
+                                    "type": "text",
+                                    "text": "divergent"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "__bool__1",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let c = rand(2,4);\n  let z = 1/c + (1/c) * 1i;\n  let a1 = z^1;\n  let a2 = z^2;",
+                  "variables": [
+                    "c",
+                    "z",
+                    "a1",
+                    "a2",
+                    "__bool__0",
+                    "__bool__1"
+                  ],
+                  "instances": [
+                    {
+                      "c": "4",
+                      "@c": "rand(2,4)",
+                      "z": "0+0i",
+                      "@z": "((1/4)+((1/4)*(1*(0+i))))",
+                      "a1": "0.0+0.0i",
+                      "@a1": "((0+0i)^1)",
+                      "a2": "0.0+0.0i",
+                      "@a2": "((0+0i)^2)",
+                      "__bool__0": "true",
+                      "__bool__1": "false"
+                    },
+                    {
+                      "c": "4",
+                      "@c": "rand(2,4)",
+                      "z": "0+0i",
+                      "@z": "((1/4)+((1/4)*(1*(0+i))))",
+                      "a1": "0.0+0.0i",
+                      "@a1": "((0+0i)^1)",
+                      "a2": "0.0+0.0i",
+                      "@a2": "((0+0i)^2)",
+                      "__bool__0": "true",
+                      "__bool__1": "false"
+                    },
+                    {
+                      "c": "4",
+                      "@c": "rand(2,4)",
+                      "z": "0+0i",
+                      "@z": "((1/4)+((1/4)*(1*(0+i))))",
+                      "a1": "0.0+0.0i",
+                      "@a1": "((0+0i)^1)",
+                      "a2": "0.0+0.0i",
+                      "@a2": "((0+0i)^2)",
+                      "__bool__0": "true",
+                      "__bool__1": "false"
+                    },
+                    {
+                      "c": "4",
+                      "@c": "rand(2,4)",
+                      "z": "0+0i",
+                      "@z": "((1/4)+((1/4)*(1*(0+i))))",
+                      "a1": "0.0+0.0i",
+                      "@a1": "((0+0i)^1)",
+                      "a2": "0.0+0.0i",
+                      "@a2": "((0+0i)^2)",
+                      "__bool__0": "true",
+                      "__bool__1": "false"
+                    },
+                    {
+                      "c": "2",
+                      "@c": "rand(2,4)",
+                      "z": "0+0i",
+                      "@z": "((1/2)+((1/2)*(1*(0+i))))",
+                      "a1": "0.0+0.0i",
+                      "@a1": "((0+0i)^1)",
+                      "a2": "0.0+0.0i",
+                      "@a2": "((0+0i)^2)",
+                      "__bool__0": "true",
+                      "__bool__1": "false"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "exercise",
+                "title": "Komplexe Reihen",
+                "label": "ex26",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Ist die folgende geometrische Reihe"
+                      },
+                      {
+                        "type": "boldText",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "absolut konvergent"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "?"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "equation",
+                    "id": "2",
+                    "equationData": {
+                      "math": {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "\\sum_ { k = 0 } ^ { \\infty } \\left ( \\frac { 1 } {"
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "a"
+                          },
+                          {
+                            "type": "text",
+                            "text": "} + \\frac { 1 } {"
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "b"
+                          },
+                          {
+                            "type": "text",
+                            "text": "} \\cdot i \\right) ^ k"
+                          }
+                        ]
+                      },
+                      "number": 0
+                    }
+                  },
+                  {
+                    "type": "singleChoice",
+                    "items": [
+                      {
+                        "type": "inputField",
+                        "id": "input27",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "ja"
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "__bool__0",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      },
+                      {
+                        "type": "inputField",
+                        "id": "input28",
+                        "items": [
+                          {
+                            "type": "span",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "nein"
+                              }
+                            ]
+                          }
+                        ],
+                        "inputFieldData": {
+                          "type": "bool",
+                          "variableId": "__bool__1",
+                          "score": 1,
+                          "choices": 0
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let a:b = rand(2,6);",
+                  "variables": [
+                    "a",
+                    "b",
+                    "__bool__0",
+                    "__bool__1"
+                  ],
+                  "instances": [
+                    {
+                      "a": "2",
+                      "@a": "rand(2,6)",
+                      "b": "4",
+                      "@b": "rand(2,6)",
+                      "__bool__0": "true",
+                      "__bool__1": "false"
+                    },
+                    {
+                      "a": "2",
+                      "@a": "rand(2,6)",
+                      "b": "3",
+                      "@b": "rand(2,6)",
+                      "__bool__0": "true",
+                      "__bool__1": "false"
+                    },
+                    {
+                      "a": "6",
+                      "@a": "rand(2,6)",
+                      "b": "5",
+                      "@b": "rand(2,6)",
+                      "__bool__0": "true",
+                      "__bool__1": "false"
+                    },
+                    {
+                      "a": "3",
+                      "@a": "rand(2,6)",
+                      "b": "5",
+                      "@b": "rand(2,6)",
+                      "__bool__0": "true",
+                      "__bool__1": "false"
+                    },
+                    {
+                      "a": "2",
+                      "@a": "rand(2,6)",
+                      "b": "4",
+                      "@b": "rand(2,6)",
+                      "__bool__0": "true",
+                      "__bool__1": "false"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "exercise",
+                "title": "Komplexe Nullstellen",
+                "label": "ex29",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Gegeben sei das Polynom"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "f ( z) = z ^ 2 +"
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "a"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": ". Bestimme die beiden"
+                      },
+                      {
+                        "type": "boldText",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "Nullstellen"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": ":"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "itemize",
+                    "items": [
+                      {
+                        "type": "span",
+                        "items": [
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "z ="
+                              }
+                            ]
+                          },
+                          {
+                            "type": "inputField",
+                            "id": "input30",
+                            "inputFieldData": {
+                              "type": "intSet",
+                              "variableId": "res",
+                              "score": 1,
+                              "choices": 0
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let a = rand(2,8)^2;\n  let z1 = sqrt(a) * 1i;\n  let z2 = -z1;\n  let res = {z1,z2};",
+                  "variables": [
+                    "a",
+                    "z1",
+                    "z2",
+                    "res"
+                  ],
+                  "instances": [
+                    {
+                      "a": "64",
+                      "@a": "(rand(2,8)^2)",
+                      "z1": "0+8i",
+                      "@z1": "(sqrt(64)*(1*(0+i)))",
+                      "z2": "0-8i",
+                      "@z2": "(-((0+8i)))",
+                      "res": "{0+8i,0-8i}",
+                      "@res": "set((0+8i),(0-8i))"
+                    },
+                    {
+                      "a": "4",
+                      "@a": "(rand(2,8)^2)",
+                      "z1": "0+2i",
+                      "@z1": "(sqrt(4)*(1*(0+i)))",
+                      "z2": "0-2i",
+                      "@z2": "(-((0+2i)))",
+                      "res": "{0+2i,0-2i}",
+                      "@res": "set((0+2i),(0-2i))"
+                    },
+                    {
+                      "a": "25",
+                      "@a": "(rand(2,8)^2)",
+                      "z1": "0+5i",
+                      "@z1": "(sqrt(25)*(1*(0+i)))",
+                      "z2": "0-5i",
+                      "@z2": "(-((0+5i)))",
+                      "res": "{0+5i,0-5i}",
+                      "@res": "set((0+5i),(0-5i))"
+                    },
+                    {
+                      "a": "36",
+                      "@a": "(rand(2,8)^2)",
+                      "z1": "0+6i",
+                      "@z1": "(sqrt(36)*(1*(0+i)))",
+                      "z2": "0-6i",
+                      "@z2": "(-((0+6i)))",
+                      "res": "{0+6i,0-6i}",
+                      "@res": "set((0+6i),(0-6i))"
+                    },
+                    {
+                      "a": "64",
+                      "@a": "(rand(2,8)^2)",
+                      "z1": "0+8i",
+                      "@z1": "(sqrt(64)*(1*(0+i)))",
+                      "z2": "0-8i",
+                      "@z2": "(-((0+8i)))",
+                      "res": "{0+8i,0-8i}",
+                      "@res": "set((0+8i),(0-8i))"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "exercise",
+                "title": "Quotienten von Polynomen",
+                "label": "ex31",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Gegeben sei die folgende rationale Funktion:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "itemize",
+                    "items": [
+                      {
+                        "type": "span",
+                        "items": [
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "r ( z) = \\frac { ("
+                              },
+                              {
+                                "type": "variableReference",
+                                "id": "a"
+                              },
+                              {
+                                "type": "text",
+                                "text": "+"
+                              },
+                              {
+                                "type": "variableReference",
+                                "id": "b"
+                              },
+                              {
+                                "type": "text",
+                                "text": "i) \\cdot z +"
+                              },
+                              {
+                                "type": "variableReference",
+                                "id": "c"
+                              },
+                              {
+                                "type": "text",
+                                "text": "i +"
+                              },
+                              {
+                                "type": "variableReference",
+                                "id": "d"
+                              },
+                              {
+                                "type": "text",
+                                "text": "} { z \\cdot ( z ^ 2 +"
+                              },
+                              {
+                                "type": "variableReference",
+                                "id": "ee"
+                              },
+                              {
+                                "type": "text",
+                                "text": ") }"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Bestimme den Definitionsbereich"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "D_r = \\CC \\setminus X"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "itemize",
+                    "items": [
+                      {
+                        "type": "span",
+                        "items": [
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "X ="
+                              }
+                            ]
+                          },
+                          {
+                            "type": "inputField",
+                            "id": "input32",
+                            "inputFieldData": {
+                              "type": "intSet",
+                              "variableId": "res",
+                              "score": 1,
+                              "choices": 0
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let a:b:c:d = rand(2,8);\n  let ee = rand(2,9)^2;\n  let A = 0*1i;\n  let B = sqrt(ee)*1i;\n  let C = -sqrt(ee)*1i;\n  let res = {A,B,C};",
+                  "variables": [
+                    "a",
+                    "b",
+                    "c",
+                    "d",
+                    "ee",
+                    "A",
+                    "B",
+                    "C",
+                    "res"
+                  ],
+                  "instances": [
+                    {
+                      "a": "2",
+                      "@a": "rand(2,8)",
+                      "b": "4",
+                      "@b": "rand(2,8)",
+                      "c": "4",
+                      "@c": "rand(2,8)",
+                      "d": "7",
+                      "@d": "rand(2,8)",
+                      "ee": "81",
+                      "@ee": "(rand(2,9)^2)",
+                      "A": "0+0i",
+                      "@A": "(0*(1*(0+i)))",
+                      "B": "0+9i",
+                      "@B": "(sqrt(81)*(1*(0+i)))",
+                      "C": "0-9i",
+                      "@C": "((-(sqrt(81)))*(1*(0+i)))",
+                      "res": "{0+0i,0+9i,0-9i}",
+                      "@res": "set((0+0i),(0+9i),(0-9i))"
+                    },
+                    {
+                      "a": "6",
+                      "@a": "rand(2,8)",
+                      "b": "6",
+                      "@b": "rand(2,8)",
+                      "c": "2",
+                      "@c": "rand(2,8)",
+                      "d": "2",
+                      "@d": "rand(2,8)",
+                      "ee": "4",
+                      "@ee": "(rand(2,9)^2)",
+                      "A": "0+0i",
+                      "@A": "(0*(1*(0+i)))",
+                      "B": "0+2i",
+                      "@B": "(sqrt(4)*(1*(0+i)))",
+                      "C": "0-2i",
+                      "@C": "((-(sqrt(4)))*(1*(0+i)))",
+                      "res": "{0+0i,0+2i,0-2i}",
+                      "@res": "set((0+0i),(0+2i),(0-2i))"
+                    },
+                    {
+                      "a": "6",
+                      "@a": "rand(2,8)",
+                      "b": "6",
+                      "@b": "rand(2,8)",
+                      "c": "6",
+                      "@c": "rand(2,8)",
+                      "d": "6",
+                      "@d": "rand(2,8)",
+                      "ee": "9",
+                      "@ee": "(rand(2,9)^2)",
+                      "A": "0+0i",
+                      "@A": "(0*(1*(0+i)))",
+                      "B": "0+3i",
+                      "@B": "(sqrt(9)*(1*(0+i)))",
+                      "C": "0-3i",
+                      "@C": "((-(sqrt(9)))*(1*(0+i)))",
+                      "res": "{0+0i,0+3i,0-3i}",
+                      "@res": "set((0+0i),(0+3i),(0-3i))"
+                    },
+                    {
+                      "a": "7",
+                      "@a": "rand(2,8)",
+                      "b": "7",
+                      "@b": "rand(2,8)",
+                      "c": "7",
+                      "@c": "rand(2,8)",
+                      "d": "7",
+                      "@d": "rand(2,8)",
+                      "ee": "49",
+                      "@ee": "(rand(2,9)^2)",
+                      "A": "0+0i",
+                      "@A": "(0*(1*(0+i)))",
+                      "B": "0+7i",
+                      "@B": "(sqrt(49)*(1*(0+i)))",
+                      "C": "0-7i",
+                      "@C": "((-(sqrt(49)))*(1*(0+i)))",
+                      "res": "{0+0i,0+7i,0-7i}",
+                      "@res": "set((0+0i),(0+7i),(0-7i))"
+                    },
+                    {
+                      "a": "8",
+                      "@a": "rand(2,8)",
+                      "b": "4",
+                      "@b": "rand(2,8)",
+                      "c": "4",
+                      "@c": "rand(2,8)",
+                      "d": "5",
+                      "@d": "rand(2,8)",
+                      "ee": "64",
+                      "@ee": "(rand(2,9)^2)",
+                      "A": "0+0i",
+                      "@A": "(0*(1*(0+i)))",
+                      "B": "0+8i",
+                      "@B": "(sqrt(64)*(1*(0+i)))",
+                      "C": "0-8i",
+                      "@C": "((-(sqrt(64)))*(1*(0+i)))",
+                      "res": "{0+0i,0+8i,0-8i}",
+                      "@res": "set((0+0i),(0+8i),(0-8i))"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "exercise",
+                "title": "Konvergenzradius",
+                "label": "ex33",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Bestimme den"
+                      },
+                      {
+                        "type": "boldText",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "Konvergenzradius"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "der Potenzreihe"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "equation",
+                    "id": "-1",
+                    "equationData": {
+                      "math": {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "\\sum_ { k = 0 } ^ { \\infty } k \\cdot ("
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "z1"
+                          },
+                          {
+                            "type": "text",
+                            "text": ") \\cdot z ^ k"
+                          }
+                        ]
+                      },
+                      "number": 0
+                    }
+                  },
+                  {
+                    "type": "itemize",
+                    "items": [
+                      {
+                        "type": "span",
+                        "items": [
+                          {
+                            "type": "inlineMath",
+                            "items": [
+                              {
+                                "type": "text",
+                                "text": "R ="
+                              }
+                            ]
+                          },
+                          {
+                            "type": "inputField",
+                            "id": "input34",
+                            "inputFieldData": {
+                              "type": "int",
+                              "variableId": "res",
+                              "score": 1,
+                              "choices": 0
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let a:b = rand(2,10);\n  let z1 = complex(a,b);\n  let res = 1;",
+                  "variables": [
+                    "a",
+                    "b",
+                    "z1",
+                    "res"
+                  ],
+                  "instances": [
+                    {
+                      "a": "10",
+                      "@a": "rand(2,10)",
+                      "b": "4",
+                      "@b": "rand(2,10)",
+                      "z1": "10+4i",
+                      "@z1": "complex(10,4)",
+                      "res": "1",
+                      "@res": "1"
+                    },
+                    {
+                      "a": "5",
+                      "@a": "rand(2,10)",
+                      "b": "2",
+                      "@b": "rand(2,10)",
+                      "z1": "5+2i",
+                      "@z1": "complex(5,2)",
+                      "res": "1",
+                      "@res": "1"
+                    },
+                    {
+                      "a": "10",
+                      "@a": "rand(2,10)",
+                      "b": "5",
+                      "@b": "rand(2,10)",
+                      "z1": "10+5i",
+                      "@z1": "complex(10,5)",
+                      "res": "1",
+                      "@res": "1"
+                    },
+                    {
+                      "a": "4",
+                      "@a": "rand(2,10)",
+                      "b": "10",
+                      "@b": "rand(2,10)",
+                      "z1": "4+10i",
+                      "@z1": "complex(4,10)",
+                      "res": "1",
+                      "@res": "1"
+                    },
+                    {
+                      "a": "5",
+                      "@a": "rand(2,10)",
+                      "b": "6",
+                      "@b": "rand(2,10)",
+                      "z1": "5+6i",
+                      "@z1": "complex(5,6)",
+                      "res": "1",
+                      "@res": "1"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              },
+              {
+                "type": "exercise",
+                "title": "Komplexe Potenzen",
+                "label": "ex35",
+                "items": [
+                  {
+                    "type": "paragraph",
+                    "items": [
+                      {
+                        "type": "text",
+                        "text": "Berechne"
+                      },
+                      {
+                        "type": "inlineMath",
+                        "items": [
+                          {
+                            "type": "text",
+                            "text": "("
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "z"
+                          },
+                          {
+                            "type": "text",
+                            "text": ") ^"
+                          },
+                          {
+                            "type": "variableReference",
+                            "id": "c"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "unter Verwendung der Exponentialform:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "itemize",
+                    "items": [
+                      {
+                        "type": "span",
+                        "items": [
+                          {
+                            "type": "inputField",
+                            "id": "input36",
+                            "inputFieldData": {
+                              "type": "complexNormal",
+                              "variableId": "res",
+                              "score": 1,
+                              "choices": 0
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "exerciseData": {
+                  "code": "  let a = rand(1,2);\n  let c = rand(4,8);\n  let z = complex(a,a);\n  let res = z^c;",
+                  "variables": [
+                    "a",
+                    "c",
+                    "z",
+                    "res"
+                  ],
+                  "instances": [
+                    {
+                      "a": "1",
+                      "@a": "rand(1,2)",
+                      "c": "6",
+                      "@c": "rand(4,8)",
+                      "z": "1+i",
+                      "@z": "complex(1,1)",
+                      "res": "-1.4695761589768243e-15-8.000000000000004i",
+                      "@res": "((1+i)^6)"
+                    },
+                    {
+                      "a": "1",
+                      "@a": "rand(1,2)",
+                      "c": "6",
+                      "@c": "rand(4,8)",
+                      "z": "1+i",
+                      "@z": "complex(1,1)",
+                      "res": "-1.4695761589768243e-15-8.000000000000004i",
+                      "@res": "((1+i)^6)"
+                    },
+                    {
+                      "a": "1",
+                      "@a": "rand(1,2)",
+                      "c": "5",
+                      "@c": "rand(4,8)",
+                      "z": "1+i",
+                      "@z": "complex(1,1)",
+                      "res": "-4.000000000000003-4.000000000000001i",
+                      "@res": "((1+i)^5)"
+                    },
+                    {
+                      "a": "2",
+                      "@a": "rand(1,2)",
+                      "c": "7",
+                      "@c": "rand(4,8)",
+                      "z": "2+2i",
+                      "@z": "complex(2,2)",
+                      "res": "1024.0000000000005-1024.0000000000007i",
+                      "@res": "((2+2i)^7)"
+                    },
+                    {
+                      "a": "2",
+                      "@a": "rand(1,2)",
+                      "c": "6",
+                      "@c": "rand(4,8)",
+                      "z": "2+2i",
+                      "@z": "complex(2,2)",
+                      "res": "-9.405287417451676e-14-512.0000000000002i",
+                      "@res": "((2+2i)^6)"
+                    }
+                  ],
+                  "staticOrder": false,
+                  "scores": 1,
+                  "showGapLength": false,
+                  "showRequiredGapLettersOnly": false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "chapterTest": {
+    "debug": "chapter",
+    "title": "",
+    "author": "",
+    "mbclVersion": 1,
+    "dateModified": 1679495819,
+    "chapters": [
+      {
+        "fileId": "",
+        "title": "Some Basics",
+        "label": "",
+        "author": "TH Koeln",
+        "posX": -1,
+        "posY": -1,
+        "requires": [],
+        "units": [
+          {
+            "title": "My Unit A",
+            "levels": [
+              "a-start",
+              "a-fun",
+              "a-bla"
+            ]
+          },
+          {
+            "title": "My Unit B",
+            "levels": [
+              "b-hey",
+              "b-you"
+            ]
+          }
+        ],
+        "levels": [
+          {
+            "fileId": "a-start",
+            "title": "Start",
+            "label": "",
+            "posX": 0,
+            "posY": 0,
+            "requires": [],
+            "items": [
+              {
+                "type": "paragraph",
+                "items": [
+                  {
+                    "type": "text",
+                    "text": "Some text here."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "fileId": "a-fun",
+            "title": "Fun",
+            "label": "",
+            "posX": 1,
+            "posY": 0,
+            "requires": [
+              "a-start"
+            ],
+            "items": [
+              {
+                "type": "paragraph",
+                "items": [
+                  {
+                    "type": "text",
+                    "text": "Some text here."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "fileId": "a-bla",
+            "title": "Bla",
+            "label": "",
+            "posX": 1,
+            "posY": 1,
+            "requires": [
+              "a-fun"
+            ],
+            "items": [
+              {
+                "type": "paragraph",
+                "items": [
+                  {
+                    "type": "text",
+                    "text": "Some text here."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "fileId": "b-hey",
+            "title": "Hey",
+            "label": "",
+            "posX": 0,
+            "posY": 0,
+            "requires": [],
+            "items": [
+              {
+                "type": "paragraph",
+                "items": [
+                  {
+                    "type": "text",
+                    "text": "Some text here."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "fileId": "b-you",
+            "title": "You",
+            "label": "",
+            "posX": 1,
+            "posY": 0,
+            "requires": [
+              "b-hey"
+            ],
+            "items": [
+              {
+                "type": "paragraph",
+                "items": [
+                  {
+                    "type": "text",
+                    "text": "Some text here."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -36,16 +36,10 @@
 
     <script>
       // The value below is injected by flutter build, do not touch.
-      var serviceWorkerVersion = '1700023887';
+      var serviceWorkerVersion = '27053654';
     </script>
     <!-- This script adds the flutter initialization JS code -->
     <script src="flutter.js" defer></script>
-
-    <!-- flutter_tex -->
-    <script src="assets/packages/flutter_tex/js/flutter_tex.js"></script>
-    <script type="text/javascript">
-      window.flutterWebRenderer = "canvaskit";
-    </script>
   </head>
 
   <body>
